@@ -1,28 +1,25 @@
-/* General Page Styling */
+/* Shared/global styles */
 body {
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text color */
-    padding-top: 80px; /* Space for fixed navbar */
-    font-family: Arial, sans-serif; /* Clean font */
+    background-color: #121212;
+    color: #e0e0e0;
+    padding-top: 80px; /* Adjust for navbar height */
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Content Container */
 .container {
-    text-align: left; /* Default alignment for content */
+    max-width: 1200px;
     margin: auto;
     padding: 20px;
-    max-width: 1200px; /* Optional: Limit width */
+    text-align: left;
 }
 
-/* Headings */
 h1, h2, h3 {
     color: #e0e0e0;
-    margin-bottom: 1rem;
-    text-align: left; /* Ensure headings are left-aligned */
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-/* Buttons */
 .btn-primary {
     background-color: #bb86fc;
     border: none;
