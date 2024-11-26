@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif; /* Clean font */
 }
 
-/* Content Container */
+/* Bootstrap Container Override */
 .container {
     max-width: 1200px;
     margin: auto;
@@ -15,21 +15,20 @@ body {
     text-align: left; /* Default alignment for content */
 }
 
-/* Headings */
+/* Headings Styling */
 h1, h2, h3 {
     color: #e0e0e0;
     margin-bottom: 1rem;
     text-align: left; /* Ensure headings are left-aligned */
 }
 
-/* Card Styling */
-.card-body {
-    background-color: #1f1f1f; /* Dark background for the card */
-    color: #e0e0e0; /* Light text color */
+/* Dark Theme for Cards */
+.card {
+    background-color: #1f1f1f; /* Dark background */
+    color: #e0e0e0; /* Light text */
     border: none; /* Remove default border */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    margin-bottom: 20px; /* Add spacing between cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
 
 .card-title {
@@ -41,6 +40,7 @@ h1, h2, h3 {
     color: #cccccc; /* Slightly lighter text for descriptions */
 }
 
+/* Buttons Styling */
 .btn-primary {
     background-color: #3700b3; /* Dark purple button */
     border: none;
@@ -51,21 +51,34 @@ h1, h2, h3 {
     background-color: #bb86fc; /* Lighter purple on hover */
 }
 
-/* General Dark Box Styling */
+/* General Dark Box Styling (Reusable for Containers) */
 .dark-box {
-    background-color: #1f1f1f; /* Dark background for containers */
+    background-color: #1f1f1f; /* Dark background */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    color: #e0e0e0; /* Light text color inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    color: #e0e0e0; /* Light text color */
 }
-/* Form Styling */
+
+/* Forms Styling */
 form {
-    background-color: #1f1f1f;
+    background-color: #1f1f1f; /* Match dark theme */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for forms */
     margin: 0; /* Ensure alignment matches other boxes */
-
 }
 
+/* Bootstrap-specific overrides */
+.navbar {
+    background-color: #121212 !important; /* Dark navbar background */
+    border-bottom: 1px solid #333333; /* Subtle border for definition */
+}
+
+.nav-link {
+    color: #e0e0e0 !important; /* Light links */
+}
+
+.nav-link:hover {
+    color: #bb86fc !important; /* Highlighted link color */
+}
