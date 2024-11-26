@@ -68,17 +68,3 @@ form {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for forms */
     margin: 0; /* Ensure alignment matches other boxes */
 }
-
-/* Bootstrap-specific overrides */
-.navbar {
-    background-color: #121212 !important; /* Dark navbar background */
-    border-bottom: 1px solid #333333; /* Subtle border for definition */
-}
-
-.nav-link {
-    color: #e0e0e0 !important; /* Light links */
-}
-
-.nav-link:hover {
-    color: #bb86fc !important; /* Highlighted link color */
-}
