@@ -33,11 +33,20 @@ h1, h2, h3 {
 .btn-primary:hover {
     background-color: #3700b3;
 }
-
+/* General Dark Box Styling */
+.dark-box {
+    background-color: #1f1f1f; /* Dark background for containers */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0; /* Light text color inside the box */
+}
 /* Form Styling */
 form {
     background-color: #1f1f1f;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin: 0; /* Ensure alignment matches other boxes */
+
 }
