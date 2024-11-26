@@ -1,0 +1,29 @@
+/* Navbar-Specific Styles */
+.navbar-custom {
+    background-color: #1f1f1f; /* Dark navbar background */
+    padding: 20px 0; /* Vertical padding */
+    border-bottom: 2px solid #333; /* Separation line */
+    position: fixed; /* Fix navbar at the top */
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Center navbar items */
+.navbar-custom .container {
+    display: flex;
+    justify-content: center; /* Center navbar items */
+    align-items: center; /* Align items vertically */
+}
+
+/* Navbar links */
+.navbar-custom .nav-link {
+    color: #e0e0e0 !important; /* Light text color */
+    font-size: 1.2rem; /* Slightly larger font */
+    margin: 0 10px; /* Add spacing between links */
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: #bb86fc !important; /* Highlight on hover/active */
+}
