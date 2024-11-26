@@ -52,7 +52,7 @@ h1, h2, h3 {
 }
 
 /* General Dark Box Styling (Reusable for Containers) */
-.dark-box {
+.dark-theme-box {
     background-color: #1f1f1f; /* Dark background */
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
