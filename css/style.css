@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 /* Card Styling */
-.card {
+.card-body {
     background-color: #1f1f1f; /* Dark background for the card */
     color: #e0e0e0; /* Light text color */
     border: none; /* Remove default border */
