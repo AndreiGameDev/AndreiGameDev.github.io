@@ -22,17 +22,35 @@ h1, h2, h3 {
     text-align: left; /* Ensure headings are left-aligned */
 }
 
-/* Buttons */
+/* Card Styling */
+.card {
+    background-color: #1f1f1f; /* Dark background for the card */
+    color: #e0e0e0; /* Light text color */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Add spacing between cards */
+}
+
+.card-title {
+    color: #ffffff; /* Bright title text */
+    font-weight: bold;
+}
+
+.card-text {
+    color: #cccccc; /* Slightly lighter text for descriptions */
+}
+
 .btn-primary {
-    background-color: #bb86fc;
+    background-color: #3700b3; /* Dark purple button */
     border: none;
-    font-size: 1rem;
-    padding: 10px 20px;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
-    background-color: #3700b3;
+    background-color: #bb86fc; /* Lighter purple on hover */
 }
+
 /* General Dark Box Styling */
 .dark-box {
     background-color: #1f1f1f; /* Dark background for containers */
@@ -50,3 +68,4 @@ form {
     margin: 0; /* Ensure alignment matches other boxes */
 
 }
+
