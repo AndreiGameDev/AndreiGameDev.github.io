@@ -1,27 +1,5 @@
 /* Navbar-Specific Styles */
-.navbar-custom {
-    background-color: #1f1f1f; /* Dark navbar background */
-    padding: 20px 0;
-    border-bottom: 2px solid #333; /* Separation line */
-    position: fixed; /* Fix navbar at the top */
-    top: 0;
-    width: 100%; /* Full width */
-    z-index: 1000; /* Ensure it's above other content */
-}
-
-.navbar-custom .container {
-    display: flex;
-    justify-content: center; /* Center navbar items */
-    align-items: center; /* Align items vertically */
-}
-
-.navbar-custom .nav-link {
-    color: #e0e0e0 !important;
-    font-size: 1.2rem;
-    margin: 0 10px;
-}
-
-.navbar-custom .nav-link:hover,
-.navbar-custom .nav-link.active {
-    color: #bb86fc !important; /* Highlight on hover/active */
+.navbar {
+    justify-content: center;
+    align-items: center;
 }
