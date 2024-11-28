@@ -1,5 +1,7 @@
 /* Navbar-Specific Styles */
+.navbar-brand {
+display:block !important;
+}
 .navbar-nav {
-    justify-content: center !important;
-    align-items: center !important;
+    display: block !important;
 }
