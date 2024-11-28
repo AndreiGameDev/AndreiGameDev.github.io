@@ -1,7 +1,7 @@
 /* Navbar-Specific Styles */
-.navbar-brand {
+.navbar {
 display:block !important;
 }
-.navbar-nav {
+.navbar-expand-lg {
     display: block !important;
 }
