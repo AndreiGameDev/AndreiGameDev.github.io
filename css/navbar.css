@@ -1,7 +1,5 @@
-/* Navbar-Specific Styles */
-.navbar {
-display:block !important;
-}
-.navbar-expand-lg {
-    display: block !important;
+.container-fluid{
+align-self: center !important;
+align-content: center !important;
+align-items: center !important;
 }
