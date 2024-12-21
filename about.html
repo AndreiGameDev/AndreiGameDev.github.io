@@ -9,21 +9,23 @@
 </head>
 
 <body>
-    <div id="navbar-placeholder"></div>
-    <script>
-        fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-placeholder').innerHTML = data;
-                const currentPage = location.pathname.split('/').pop();
-                const links = document.querySelectorAll('.nav-link');
-                links.forEach(link => {
-                    if (link.getAttribute('href') === currentPage) {
-                        link.classList.add('active');
-                    }
-                });
-            });
-    </script>
+     <!-- Implements navbar through javascript, navabar-placeholder is the name of the element that will be replaced!-->
+     <div id="navbar-placeholder"></div>
+     <script>
+         fetch('navbar.html')
+             .then(response => response.text())
+             .then(data => {
+                 document.getElementById('navbar-placeholder').innerHTML = data;
+                 const currentPage = location.pathname.split('/').pop();
+                 const links = document.querySelectorAll('.nav-link');
+                 links.forEach(link => {
+                     if (link.getAttribute('href') === currentPage) {
+                         link.classList.add('active');
+                     }
+                 });
+             });
+     </script>
+     <!-- Navbar implemented.  !-->
 
     <div class="container-lg justify-content-center">
         <h2>About Me</h2>
