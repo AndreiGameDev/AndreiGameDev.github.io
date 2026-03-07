@@ -59,7 +59,7 @@ export default defineConfig({
   sidebar: {
     author: "Andrei-Ionut Bila-Nicola",
     description:
-      "Passionate young game developer, currently studyingBSc Computer Games Programming at the University of Gloucestershire.",
+      "Passionate young game developer, currently studying BSc Computer Games Programming at the University of Gloucestershire.",
     social: {
       github: {
         url: "https://github.com/AndreiGameDev",
