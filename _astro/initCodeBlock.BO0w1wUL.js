@@ -1,0 +1,1 @@
+function n(e){document.querySelectorAll(e).forEach(t=>{const o=document.createElement("code-block");o.appendChild(t.cloneNode(!0)),t.replaceWith(o)})}function d(e){document.readyState==="loading"?document.addEventListener("DOMContentLoaded",()=>{n(e)}):n(e)}export{d as i};
