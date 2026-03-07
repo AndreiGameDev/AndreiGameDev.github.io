@@ -7,7 +7,9 @@
       "staticDistDir": "dist",
       "url": [
         "http://localhost/",
-        "http://localhost/posts/hello-world/"
+        "http://localhost/posts/hello-world/",
+        "https://andreigamedev.github.io/portfolio/",
+        "https://andreigamedev.github.io/portfolio/posts/hello-world/"
       ],
       "numberOfRuns": 3
     },
