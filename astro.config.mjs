@@ -143,4 +143,6 @@ export default defineConfig({
     ],
     rehypePlugins: [rehypeKatex, rehypeAutoLinkHeadings],
   },
+  output: "static",
+  base: "https://github.com/AndreiGameDev/portfolio", // Replace with your actual repo name
 });
