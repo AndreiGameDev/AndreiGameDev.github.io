@@ -6,8 +6,8 @@
       },
       "staticDistDir": "dist",
       "url": [
-        "http://localhost/portfolio/",
-        "http://localhost/portfolio/posts/hello-world/"
+        "http://localhost/",
+        "http://localhost/posts/hello-world/"
       ],
       "numberOfRuns": 3
     },
