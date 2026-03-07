@@ -8,8 +8,7 @@
       "url": [
         "http://localhost/",
         "http://localhost/posts/hello-world/",
-        "https://andreigamedev.github.io/portfolio/",
-        "https://andreigamedev.github.io/portfolio/posts/hello-world/"
+        "https://andreigamedev.github.io/portfolio/"
       ],
       "numberOfRuns": 3
     },
