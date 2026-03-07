@@ -1,0 +1,63 @@
+---
+title: Star Map Simulation
+date: 2024-12-20
+description: In this simulation the user can create paths by selecting stars in a galaxy and the user can also change the galaxy's properties regarding stars and spawn rules
+tags: [Individual, 3D]
+categories: [Unity]
+draft: false
+cover: "../assets/images/coverStarMap.avif"
+sticky: true
+---
+import { Image } from 'astro:assets';
+import pathfindingGif from '../assets/animated/Starmap/Pathfinding.webp';
+import proceduralGif from '../assets/animated/Starmap/Procedural.webp';
+
+## [Download here](https://github.com/AndreiGameDev/Star-Map-Navigation-Simulation/releases/tag/Release)
+
+# Star Map Navigation Simulator
+
+A procedurally generated galaxy with interactive star navigation.
+
+## Features
+- **Procedural Star Generation** – The galaxy is dynamically created each time.
+- **Pathfinding Memory** – Stars remember previously searched paths, preventing redundant calculations.
+- **Interactive Navigation** – Click on stars to generate paths and explore routes.
+
+---
+
+## Main Features
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+  <div>
+    <p align="center"><strong>Procedural Star Map</strong></p>
+    <a href={proceduralGif.src} class="glightbox">
+    <Image src={proceduralGif} alt="Input Handling Script" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+  </div>
+  <div>
+    <p align="center"><strong>Pathfinding Memory</strong></p>
+    <a href={pathfindingGif.src} class="glightbox">
+    <Image src={pathfindingGif} alt="Input Handling Script" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+  </div>
+</div>
+---
+
+## Controls Guide
+- Switch between Free Camera and UI by holding the **F** key.
+- Click on a star to generate paths.
+- Select a path to initiate pathfinding between stars.
+
+---
+
+## External Resources
+The following resources were referenced in the development of this project:
+
+- **Andrew (2022)** – *3D Clicking on Objects in Game View*, YouTube.  
+  [Watch Here](https://www.youtube.com/watch?v=kkkmX3_fvfQ) *(Accessed: 20 April 2024)*  
+
+- **PULSAR BYTES** – *Spaceskies Free: 2D Sky*, Unity Asset Store.  
+  [Download Here](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503) *(Accessed: 27 April 2024)*  
+
+- **DeveshPandey** – *Rounding Float to 2 Decimal Points*, Unity Forum.  
+  [Read Discussion](https://discussions.unity.com/t/round-float-with-2-decimal/81611/3) *(Accessed: 27 April 2024)*  

@@ -1,0 +1,43 @@
+---
+title: Boid Simulation
+date: 2024-12-20
+description: Boid simulation utilising djistrka pathfinding and allows for an interactive experience through user-friendly UI allowing the user to change values of the boids, flocking and boundary at will in real-time.
+tags: [Individual, 3D, C++]
+categories: [Unreal Engine]
+draft: false
+cover: "../assets/images/coverBoidUnreal.avif"
+sticky: true
+---
+import { Image } from 'astro:assets';
+import showcase from '../assets/animated/BoidSimulation.webp';
+
+## [Download here](https://github.com/AndreiGameDev/Boids-Simulation/releases/tag/Release)
+
+# Boids Interactive Simulation
+
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+<a href={showcase.src} class="glightbox">
+    <Image src={showcase} alt="Boids Simulationt" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+  <div style={{ flex: '1', minWidth: '300px' }}>
+  Experience a dynamic, real-time simulation of boid behavior enhanced by the advanced djistrka pathfinding algorithm. This interactive tool lets you adjust boid properties, flocking dynamics, and boundary settings on the fly through an intuitive user interface.
+  </div>
+</div>
+---
+
+## Key Features
+
+- **Real-Time Customization:** Instantly modify boid values, adjust flocking behavior, and redefine boundaries as the simulation unfolds.
+- **Advanced Pathfinding:** Utilize djistrka's innovative pathfinding algorithm to achieve realistic, emergent movement patterns.
+- **User-Friendly Interface:** Designed for both beginners and experts, offering easy-to-navigate controls and clear visual feedback.
+- **Dynamic Visual Experience:** Watch immediate changes and smooth transitions that enhance your understanding of complex simulation dynamics.
+
+---
+
+## Controls
+
+- **W A S D** → Move the camera  
+- **Ctrl** → Descend the camera  
+- **Space** → Ascend the camera  
+- **Escape** → Quit the application
