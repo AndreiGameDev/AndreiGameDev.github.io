@@ -50,7 +50,7 @@ export default defineConfig({
     defaultStrategy: "hover",
   },
   base: "",
-  site: "https://github.com/AndreiGameDev/portfolio",
+  site: "https://andreigamedev.github.io/portfolio/",
   
 
   integrations: [
