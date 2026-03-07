@@ -49,7 +49,7 @@ export default defineConfig({
     prefetchAll: true,
     defaultStrategy: "hover",
   },
-  base: "/portfolio/",
+  base: "",
   site: "https://github.com/AndreiGameDev",
   
 
