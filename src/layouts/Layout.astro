@@ -95,6 +95,7 @@ import SearchPage from "@/components/search/SearchPage.svelte";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     <meta name="generator" content={Astro.generator} />
 
     <slot name="head" />
@@ -189,6 +190,18 @@ import SearchPage from "@/components/search/SearchPage.svelte";
         initializeCodeBlock(".astro-code");
       });
     </script>
+
+    <!-- lightbox initialization -->
+    <script>
+      import GLightbox from 'glightbox';
+      const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: true,
+        width: "90vw",
+        height: "90vh",
+      });
+    </script>
+
     <script
       define:vars={{
         visibilityTitleConfig,

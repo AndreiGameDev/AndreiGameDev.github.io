@@ -34,7 +34,7 @@ const t = getT((themeConfig.locale as "zh-CN" | "en") || "zh-CN");
           style={
             nextGradientCover
               ? `background-image: linear-gradient(to bottom right, ${generateRandomBrightColor()}, ${generateRandomBrightColor()});`
-              : `background-image: url(${prevPost.cover || sample(covers ?? []).src});`
+              : `background-image: url(${prevPost.cover});`
           }
         >
           <span class="type">{t("post.previousPost")}</span>
@@ -61,7 +61,7 @@ const t = getT((themeConfig.locale as "zh-CN" | "en") || "zh-CN");
           style={
             nextGradientCover
               ? `background-image: linear-gradient(to bottom right, ${generateRandomBrightColor()}, ${generateRandomBrightColor()});`
-              : `background-image: url(${nextPost.cover || sample(covers ?? []).src});`
+              : `background-image: url(${nextPost.cover});`
           }
         >
           <span class="type">{t("post.nextPost")}</span>

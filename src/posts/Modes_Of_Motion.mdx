@@ -1,0 +1,85 @@
+---
+title: Modes of Motion Simulation
+date: 2023-12-21
+description: A collection of different motion techniques, including easing-based lerping, camera shake and rigidbody pushing.
+tags: [Individual, 3D, Physics]
+categories: [Unity]
+draft: false
+cover: "../assets/images/EasingMode.avif"
+---
+import { Image } from 'astro:assets';
+import showcaseGif from '../assets/animated/ModesOfMotion/1.webp';
+import easingModesGif from '../assets/animated/ModesOfMotion/2.webp';
+import cameraShakeGif from '../assets/animated/ModesOfMotion/3.webp';
+import rigidbodyPushingGif from '../assets/animated/ModesOfMotion/4.webp';
+import focusSystemGif from '../assets/animated/ModesOfMotion/5.webp';
+
+# Modes of Motion
+
+A collection of different motion techniques, including easing-based lerping, camera shake, rigidbody pushing, and object-focused linear lerping.
+
+[Download link](https://github.com/AndreiGameDev/Modes-Of-Motion/releases/tag/Release)
+---
+
+## Easing-Based Lerping
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image 
+    src={showcaseGif} 
+    alt="Easing Modes" 
+    loading="eager" 
+    style={{ width: '400px', height: 'auto', borderRadius: '8px' }} 
+  />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    Smooth object transitions using various **easing functions**. Each easing mode operates within its designated chamber.
+  </div>
+</div>
+
+<br />
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={easingModesGif} alt="Easing Modes In Action" loading="eager" style={{ width: '400px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    Each easing mode operates within its **designated chamber** to showcase different velocity curves in real-time.
+  </div>
+</div>
+
+---
+
+## Camera Shake
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={cameraShakeGif} alt="Camera Shake" loading="eager" style={{ width: '400px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    Simulating **screen shake** for added visual feedback and impact during interactions.
+  </div>
+</div>
+
+---
+
+## Rigidbody Pushing
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={rigidbodyPushingGif} alt="Rigidbody Pushing" loading="eager" style={{ width: '400px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    Physics-based movement interactions using **rigidbody forces** for realistic object collisions and weight simulation.
+  </div>
+</div>
+
+---
+
+## Linear Lerping (Focus System)
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={focusSystemGif} alt="Camera LERP" loading="eager" style={{ width: '400px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    A smooth transition system that adjusts the camera to **focus dynamically** on specific objects.
+  </div>
+</div>
+
+---
+
+## Controls
+- **Move** → `WASD`
+- **Interact** → `Left Click`
+- **Quit Application** → `Escape`

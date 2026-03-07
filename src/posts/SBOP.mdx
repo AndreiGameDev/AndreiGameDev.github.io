@@ -1,0 +1,122 @@
+---
+title: Dance Brawler
+date: 2025-04-26
+description: Contributions to Small Bag o' Peas, including a Simon Says minigame, modular shop system, and JSON save controller.
+tags: [Group Project, 3D]
+categories: [Unity]
+draft: false
+cover: "../assets/images/coverSBOP.avif"
+---
+import { Image } from 'astro:assets';
+import { YouTube } from 'astro-embed';
+import simonSaysGif from '../assets/animated/DanceBrawler/SimonSays.webp';
+import shopSystemGif from '../assets/animated/DanceBrawler/ShopSystem.webp';
+import BuyWindow from "../assets/images/DanceBrawler/BuyWindow.avif";
+import CreateSequence from "../assets/images/DanceBrawler/CreateSequence.avif";
+import LightVisualFeedback from "../assets/images/DanceBrawler/LightVisualFeedback.avif";
+import NewSequence from "../assets/images/DanceBrawler/NewSequence.avif";
+import PlayingButton from "../assets/images/DanceBrawler/PlayingButton.avif";
+import SaveDataController from "../assets/images/DanceBrawler/SaveDataController.avif";
+import ShopItem from "../assets/images/DanceBrawler/ShopItem.avif";
+import SimonSaysPlayer from "../assets/images/DanceBrawler/SimonSaysPlayer.avif";
+
+# Itch.io Page: [Small Bag o' Peas](https://smallbagopeas.itch.io/dancebrawler)
+# Small Bag o' Peas Contributions
+
+A breakdown of the core systems and minigames developed for the "Small Bag o' Peas" project, focusing on modularity and persistent data.
+
+---
+
+## Simon Says Minigame
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <a href={simonSaysGif.src} class="glightbox">
+  <Image 
+    src={simonSaysGif} 
+    alt="Simon Says Gameplay" 
+    style={{ width: '400px', height: 'auto', borderRadius: '8px', cursor: 'zoom-in' }} 
+  />
+</a>
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    Developed a fully functional **Simon Says** memory game. The logic handles dynamic sequence generation, adding one new color each round to challenge the player's memory.
+    
+    ### Implementation Breakdown
+    * **Input Handling:** Processed through `SimonSaysPlayer` to manage user interactions.
+    * **Sequence Logic:** Dynamic generation handled via `CreateSequence` and `NewSequence` modules.
+    * **Visual Feedback:** Utilized C# Coroutines for timed light patterns.
+  </div>
+</div>
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
+  <a href={SimonSaysPlayer.src} class="glightbox">
+    <Image src={SimonSaysPlayer} alt="Input Handling Script" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+  <a href={PlayingButton.src} class="glightbox">
+    <Image src={PlayingButton} alt="Button Play Mechanic" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+  <a href={CreateSequence.src} class="glightbox">
+    <Image src={CreateSequence} alt="Sequence Generator Logic" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+  <a href={LightVisualFeedback.src} class="glightbox">
+    <Image src={LightVisualFeedback} alt="Visual Feedback Logic" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+</div>
+</div>
+
+---
+
+## Shop Menu System
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image 
+    src={shopSystemGif} 
+    alt="Shop System Demo" 
+    style={{ width: '600px', height: 'auto', borderRadius: '8px' }} 
+  />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    Designed a **modular in-game shop** focused on designer-friendly usability. Designers can plug in new items and variables via the Inspector without touching the core C# logic.
+    
+    * **Purchase Memory:** Transactions are cached and remembered across sessions.
+    * **Modular Items:** Every shop entry is an instance of a serialized `ShopItem`.
+  </div>
+</div>
+
+<div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginTop: '1rem' }}>
+<a href={ShopItem.src} class="glightbox">
+    <Image src={ShopItem} alt="Modular Shop Item" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+  <a href={BuyWindow.src} class="glightbox">
+    <Image src={BuyWindow} alt="Buy Window Design" style={{ borderRadius: '4px', cursor: 'zoom-in' }} />
+  </a>
+</div>
+
+---
+
+## Save Controller (JSON)
+
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+<a href={SaveDataController.src} class="glightbox">
+    <Image src={SaveDataController} alt="Save Data Controller" style={{borderRadius: '4px', cursor: 'zoom-in' }} />
+</a>
+  <div style={{ flex: '1', minWidth: '300px' }}>
+    I developed a centralized **Save Controller** to handle the serialization of game data, ensuring player progress is retained efficiently.
+
+    * **High Scores & Currency:** Serializes multiple data types into a single JSON file.
+    * **Efficiency:** Optimized Load/Save calls to prevent frame-rate hitches during gameplay.
+  </div>
+</div>
+
+---
+
+## Technical Skills Used
+* **C# Coroutines:** For timed visual feedback and sequence playback.
+* **JSON Serialization:** For local data persistence.
+* **Modular Design:** Creating decoupled systems that allow for easy asset swapping.
+
+---
+
+## Controls
+- **Move** → `WASD`
+- **Interact** → `Left Click`
+- **Quit Application** → `Escape`

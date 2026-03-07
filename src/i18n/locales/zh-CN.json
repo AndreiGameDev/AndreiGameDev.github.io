@@ -1,129 +1,129 @@
 {
   "nav": {
-    "home": "首页",
-    "posts": "文章",
-    "categories": "分类",
-    "tags": "标签",
-    "archives": "归档"
+    "home": "Home",
+    "posts": "Posts",
+    "categories": "Categories",
+    "tags": "Tags",
+    "archives": "Archives"
   },
   "post": {
-    "wordCount": "字数统计",
-    "readingTime": "阅读时长",
-    "minutes": "分钟",
-    "words": "字",
-    "author": "文章作者",
-    "link": "文章链接",
-    "copyright": "版权声明",
-    "sticky": "置顶文章",
-    "latest": "最新文章",
-    "noContent": "暂无文章",
-    "publishedAt": "发布于",
-    "createdAt": "创建于",
-    "previousPost": "上一篇",
-    "nextPost": "下一篇",
+    "wordCount": "Word Count",
+    "readingTime": "Reading Time",
+    "minutes": "min",
+    "words": "words",
+    "author": "Author",
+    "link": "Link",
+    "copyright": "Copyright",
+    "sticky": "Sticky Posts",
+    "latest": "Latest Posts",
+    "noContent": "No posts available",
+    "publishedAt": "Published on",
+    "createdAt": "Created at",
+    "previousPost": "Previous Post",
+    "nextPost": "Next Post",
     "license": {
-      "text": "本文采用",
-      "suffix": "许可协议，转载请注明出处",
-      "noreprint": "本文禁止任何形式的转载",
-      "CC-BY-4.0": "署名 4.0 国际 (CC BY 4.0)",
-      "CC-BY-SA-4.0": "署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)",
-      "CC-BY-ND-4.0": "署名-禁止演绎 4.0 国际 (CC BY-ND 4.0)",
-      "CC-BY-NC-4.0": "署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)",
-      "CC-BY-NC-SA-4.0": "署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)",
-      "CC-BY-NC-ND-4.0": "署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)"
+      "text": "This article is licensed under",
+      "suffix": "license. Please indicate the source for reprints",
+      "noreprint": "All rights reserved. Reprinting is prohibited",
+      "CC-BY-4.0": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "CC-BY-SA-4.0": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "CC-BY-ND-4.0": "Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
+      "CC-BY-NC-4.0": "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+      "CC-BY-NC-SA-4.0": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+      "CC-BY-NC-ND-4.0": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)"
     },
-    "encryptedExcerpt": "这是一篇加密文章，无法显示摘要"
+    "encryptedExcerpt": "This is an encrypted post, the excerpt cannot be displayed"
   },
   "category": {
-    "title": "分类",
-    "subcategories": "个子分类",
-    "posts": "篇文章",
-    "label": "分类",
-    "noContent": "该分类下暂无文章"
+    "title": "Categories",
+    "subcategories": "subcategories",
+    "posts": "posts",
+    "label": "Category",
+    "noContent": "No posts in this category"
   },
   "tag": {
-    "title": "标签"
+    "title": "Tags"
   },
   "archive": {
-    "title": "归档",
-    "year": "年",
-    "month": "月",
-    "excellent": "太棒了",
-    "great": "非常好",
-    "good": "很好",
-    "nice": "不错",
-    "ok": "还行",
-    "emh": "嗯..",
-    "keepTrying": "继续努力"
+    "title": "Archives",
+    "year": "Year",
+    "month": "Month",
+    "excellent": "Excellent",
+    "great": "Great",
+    "good": "Good",
+    "nice": "Nice",
+    "ok": "OK",
+    "emh": "Hmm..",
+    "keepTrying": "Keep it up"
   },
   "sidebar": {
-    "toc": "目录",
-    "overview": "站点概览",
-    "author": "作者",
-    "scrollTop": "回到顶部",
-    "scrollBottom": "去到底部",
-    "relatedPosts": "相关文章",
+    "toc": "Table of Contents",
+    "overview": "Site Overview",
+    "author": "Author",
+    "scrollTop": "Back to Top",
+    "scrollBottom": "Go to Bottom",
+    "relatedPosts": "Related Posts",
     "state": {
-      "posts": "文章",
-      "categories": "分类",
-      "tags": "标签"
+      "posts": "Posts",
+      "categories": "Categories",
+      "tags": "Tags"
     },
     "related": {
-      "noContent": "暂无相关文章"
+      "noContent": "No related posts"
     },
     "panels": {
-      "contents": "目录",
-      "related": "相关",
-      "overview": "站点"
+      "contents": "Contents",
+      "related": "Related",
+      "overview": "Overview"
     }
   },
   "footer": {
-    "poweredBy": "由",
-    "and": "和",
-    "poweredSuffix": "主题强力驱动",
-    "randomPosts": "随机文章",
-    "recentComments": "最新评论",
-    "noRecentComments": "暂无评论，来抢个沙发吧～",
-    "recentCommentsLoadFailed": "最新评论加载失败，请稍后重试",
-    "commentAnonymous": "匿名用户",
-    "walineNotConfigured": "Waline 服务地址未配置"
+    "poweredBy": "Powered by",
+    "and": "&",
+    "poweredSuffix": "Theme",
+    "randomPosts": "Random Posts",
+    "recentComments": "Recent Comments",
+    "noRecentComments": "No comments yet. Start a conversation!",
+    "recentCommentsLoadFailed": "Failed to load recent comments. Please try again later.",
+    "commentAnonymous": "Anonymous",
+    "walineNotConfigured": "Waline server URL is not configured"
   },
   "pagination": {
-    "prev": "上一页",
-    "next": "下一页"
+    "prev": "Previous",
+    "next": "Next"
   },
   "button": {
-    "readMore": "阅读更多",
-    "more": "更多"
+    "readMore": "Read More",
+    "more": "More"
   },
   "tags": {
-    "title": "标签",
-    "allTags": "所有标签",
-    "tagged": "标签"
+    "title": "Tags",
+    "allTags": "All Tags",
+    "tagged": "Tagged"
   },
   "common": {
-    "loading": "加载中",
-    "more": "更多",
-    "total": "共",
-    "home": "首页",
-    "in": "在"
+    "loading": "Loading",
+    "more": "More",
+    "total": "Total",
+    "home": "Home",
+    "in": "in"
   },
   "search": {
-    "devModeSkipped": "当前为开发模式，已跳过 Pagefind 加载。",
-    "buildHint": "请先执行构建（含索引生成）后再预览站内搜索效果。"
+    "devModeSkipped": "Development mode is active, so Pagefind loading has been skipped.",
+    "buildHint": "Please run a production build (with index generation) before previewing on-site search."
   },
   "encrypted": {
-    "title": "文章已加密",
-    "description": "这篇文章需要密码才能查看",
-    "passwordPlaceholder": "请输入密码",
-    "submit": "解密",
-    "decrypting": "正在解密内容...",
-    "error": "密码错误，请重试",
-    "passwordRequired": "请输入密码"
+    "title": "Encrypted Post",
+    "description": "This post requires a password to view",
+    "passwordPlaceholder": "Enter password",
+    "submit": "Decrypt",
+    "decrypting": "Decrypting content...",
+    "error": "Incorrect password, please try again",
+    "passwordRequired": "Please enter password"
   },
   "moments": {
-    "title": "动态",
-    "noContent": "暂无动态",
-    "publishedAt": "发布于"
+    "title": "Moments",
+    "noContent": "No moments available",
+    "publishedAt": "Published on"
   }
 }

@@ -23,7 +23,7 @@ const lastCategory = post.data.categories?.[post.data.categories.length - 1];
           layout="constrained"
           src={post.data.cover}
           alt={post.data.title}
-          loading="lazy"
+          loading="eager"
           decoding="async"
           class="cover-image"
         />
@@ -36,7 +36,7 @@ const lastCategory = post.data.categories?.[post.data.categories.length - 1];
     <div class="meta-top">
       <span class="date">
         <i class="i-ri-calendar-line"></i>
-        {post.data.date.toLocaleDateString()}
+        {post.data.date.toISOString().split('T')[0]}
       </span>
     </div>
 

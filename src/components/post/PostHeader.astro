@@ -12,13 +12,13 @@ interface Props {
 
 const { title, link, date, wordCount, readingTime } = Astro.props;
 
-// Format date helper
+
+// Format date helper (yyyy-MM-dd)
 function formatDate(d: Date): string {
-  return d.toLocaleDateString("zh-CN", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  });
+  const year = d.getFullYear();
+  const month = d.getMonth() + 1;
+  const day = d.getDate();
+  return `${year}-${month}-${day}`;
 }
 
 // Format full date helper

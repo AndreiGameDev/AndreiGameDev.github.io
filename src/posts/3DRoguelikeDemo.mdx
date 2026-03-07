@@ -1,0 +1,75 @@
+---
+title: 3D Rogue-Like Demo
+date: 2023-11-13
+description: A 3D roguelike prototype featuring essential gameplay elements - abilities, a class system and procedurally generated levels.
+tags: [Individual, 3D]
+categories: [Unity]
+draft: false
+cover: "../assets/images/cover3DRoguelikeDemo.avif"
+---
+import { Image } from 'astro:assets';
+import proceduralGenerationGif from '../assets/animated/3DRoguelikeDemo/1.webp';
+import rngPowerupChestGif from '../assets/animated/3DRoguelikeDemo/2.webp';
+import gamePlayGif from '../assets/animated/3DRoguelikeDemo/3.webp';
+import extractionGif from '../assets/animated/3DRoguelikeDemo/4.webp';
+
+## [Download here](https://github.com/AndreiGameDev/3D-Roguelike-Demo/releases/tag/Release)
+
+### **Procedural Level Generation**  
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={proceduralGenerationGif} alt="Procedural Generation Level" loading="eager" style={{ width: '600px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+  </div>
+</div>
+
+### **Random Power-ups**  
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={rngPowerupChestGif} alt="Random Power-up Chest" loading="eager" style={{ width: '600px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+  </div>
+</div>
+### **Basic Gunner Class**  
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={gamePlayGif} alt="Gameplay" loading="eager" style={{ width: '600px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+  </div>
+</div>
+### **Extraction**  
+<div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'flex-start' }}>
+  <Image src={extractionGif} alt="Extraction" loading="eager" style={{ width: '600px', height: 'auto', borderRadius: '8px' }} />
+  <div style={{ flex: '1', minWidth: '300px' }}>
+  </div>
+</div>
+---
+
+## **Controls**  
+- **Left Click** → Shoot  
+- **Right Click** → Stat booster (*5s duration, 20s cooldown*)  
+- **Q** → Kunai throw (*10s cooldown*)  
+- **E** → Dynamite throw (*15s cooldown*)  
+- **F** → Interact  
+- **Tab** → Crystal UI (*Check crystal count and types*)  
+
+---
+
+## **Settings & Miscellaneous**  
+- **Easy/Hard difficulty** → Easy deals **2x damage**, Hard deals **1x damage**  
+- **Procedural room generation**, with some fixed arenas (e.g., the start and curve-handling to avoid infinite loops)  
+
+---
+
+## **Gameplay Guide**  
+- **Chests** reset their loot-dropping ability after each cleared room  
+- **To finish a level**:  
+  1. Open the **brown door** (*object at the start, facing you when you spawn*)  
+  2. Interact with the **hatch (black object)** to escape  
+- **There is no final level** (similar to *Risk of Rain*), but you can extract at any time with collected items  
+
+---
+
+## **Assets Credits**  
+- **Brute Model** → [Mixamo Licensing](https://helpx.adobe.com/uk/creative-cloud/faq/mixamo-faq.html) *(Accessed: 08 November 2023)*  
+- **Wizardus Maximus Model** → [MadTrollStudio on Poly Pizza](https://poly.pizza/m/6oDxK0wqyL) *(Accessed: 08 November 2023)*  
+- **Dynamite, Throwing Knife, Hand Model, Gun, Chest, and Crystals** → *Designed and created in Blender by me*  
+- **Rooms** → *Created using ProBuilder in Unity*  
+- **Iceland Font** – [1001 Fonts](https://www.1001fonts.com/iceland-font.html) *(Accessed: 08 November 2023)*  

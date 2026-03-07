@@ -2,7 +2,7 @@
 import { defineConfig } from "./toolkit/themeConfig";
 
 export default defineConfig({
-  siteName: "Andrei Ionut Bila-Nicola",
+  siteName: "Portfolio",
   locale: "en", // 网站语言: "zh-CN" | "en"
   nav: [
     {
@@ -40,7 +40,7 @@ export default defineConfig({
   brand: {
     title: "Portfolio",
     subtitle: "Consists of unity, unreal and godot persona and team projects, and more",
-    logo: "✨",
+    logo: "",
   },
   cover: {
     enable: false,
@@ -58,18 +58,19 @@ export default defineConfig({
   },
   sidebar: {
     author: "Andrei-Ionut Bila-Nicola",
-    description: "A brief introduction",
+    description:
+      "Passionate young game developer, currently studyingBSc Computer Games Programming at the University of Gloucestershire.",
     social: {
       github: {
-        url: "https://github.com/yourname",
+        url: "https://github.com/AndreiGameDev",
         icon: "i-ri-github-fill",
       },
-      twitter: {
-        url: "https://twitter.com/yourname",
-        icon: "i-ri-twitter-x-line",
-      },
+      // twitter: {
+      //   url: "https://twitter.com/yourname",
+      //   icon: "i-ri-twitter-x-line",
+      // },
       email: {
-        url: "mailto:your@email.com",
+        url: "mailto:andreibilanicola@gmail.com",
         icon: "i-ri-mail-line",
       },
     },
@@ -163,6 +164,6 @@ export default defineConfig({
   },
   copyright: {
     license: "CC-BY-NC-SA-4.0",
-    show: true,
+    show: false,
   },
 });

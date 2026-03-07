@@ -32,12 +32,12 @@ const {
   license = themeConfig.copyright?.license || "CC-BY-NC-SA-4.0",
 } = Astro.props;
 
+// Format date helper (yyyy-MM-dd)
 function formatDate(d: Date): string {
-  return d.toLocaleDateString("zh-CN", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  });
+  const year = d.getFullYear();
+  const month = d.getMonth() + 1;
+  const day = d.getDate();
+  return `${year}-${month}-${day}`;
 }
 
 function getLicenseInfo(licenseType: LicenseType) {
@@ -147,14 +147,14 @@ const isNoReprint = license === "NOREPRINT";
             </i>
             {siteName}
           </li>
-          <li class="link">
+          {/* <li class="link">
             <div class="icon i-ri-link" />
             <strong>{t("post.link")}: </strong>
             <a href={permalink} title={title}>
               {permalink}
             </a>
-          </li>
-          <li class="license" class:list={{ noreprint: isNoReprint }}>
+          </li> */}
+          {/* <li class="license" class:list={{ noreprint: isNoReprint }}>
             <div class="icon i-ri-copyright-line" />
             <strong>{t("post.copyright")}: </strong>
             {isNoReprint ? (
@@ -176,7 +176,7 @@ const isNoReprint = license === "NOREPRINT";
                 {t("post.license.suffix")}
               </>
             )}
-          </li>
+          </li> */}
         </ul>
       </div>
     )
