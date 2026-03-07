@@ -39,8 +39,8 @@ import PlayformInline from "@playform/inline";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://preview.astro.kaitaku.xyz",
-  trailingSlash: "always",
+  site: "https://github.com/AndreiGameDev",
+  base: "/portfolio", // must include the slashes and match your repo name  trailingSlash: "always",
   build: {
     format: "directory",
   },
@@ -143,6 +143,4 @@ export default defineConfig({
     ],
     rehypePlugins: [rehypeKatex, rehypeAutoLinkHeadings],
   },
-  output: "static",
-  base: "https://github.com/AndreiGameDev/portfolio", // Replace with your actual repo name
 });
