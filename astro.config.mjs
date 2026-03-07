@@ -40,7 +40,7 @@ import PlayformInline from "@playform/inline";
 // https://astro.build/config
 export default defineConfig({
   site: "https://github.com/AndreiGameDev",
-  base: "/portfolio/", // must include trailing slash for correct asset and routing on GitHub Pages
+  
   trailingSlash: "always", // ensures /foo/ maps to /foo/index.html for GitHub Pages
   build: {
     format: "directory",
